@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>Deweblop | Join Us</title>
+    <link rel="stylesheet" href="../css/Styles.css" />
+    <script src="../js/Interact.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        /* background-color: rgb(59, 148, 231); */
+        background-image: linear-gradient(
+          -60deg,
+          rgb(88, 123, 236),
+          rgb(137, 163, 235)
+        );
+        background-size: 900% 900%;
+        animation: gradient 15s ease infinite; /*Animation added to gradient*/
+        height: 100vh;
+      }
+      /*Animation specified with keyframes*/
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Navigation">
+      <a href="Index.html"
+        ><div id="Menuicon"><i class="fa-solid fa-arrow-left"></i></div
+      ></a>
+      <img
+        id="Logo"
+        src="../img/Logo.png"
+        style="margin-top: -4.5%;"
+        aria-label="Welcome to Deweblop"
+      />
+    </div>
+    <br /><br /><br /><br /><br /><br /><br />
+    <center>
+      <div class="Form">
+        <br />
+        <form>
+          <h2>Join the Club!</h2>
+          <br />
+          <input
+            id="Name"
+            class="FormEntry"
+            type="text"
+            placeholder="Applicant Name*"
+            required
+          />
+          <br /><br />
+          <input
+            id="Email"
+            class="FormEntry"
+            type="email"
+            placeholder="Email ID*"
+            required
+          />
+          <br /><br />
+          Gender* : &nbsp;&nbsp;&nbsp;&nbsp;<select
+            id="Gender"
+            class="FormEntry"
+            name="gender"
+            style="width: 30%; text-align: center;"
+            required
+          >
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+          </select>
+          <br /><br />
+          <input
+            id="Phone"
+            class="FormEntry"
+            type="number"
+            placeholder="Phone"
+          />
+          <br /><br />
+          Qualification* : &nbsp;&nbsp;&nbsp;&nbsp;<select
+            id="Qual"
+            class="FormEntry"
+            name="Qual"
+            style="width: 40%;"
+            required
+          >
+            <option value="Twelve+">Grade 12 or higher</option>
+            <option value="UG">Undergraduate</option>
+            <option value="PG">Postgraduate</option>
+            <option value="Twelve-">Lower than Grade 12</option>
+          </select>
+          <br><br>
+          Web Development Expertise* : &nbsp;&nbsp;&nbsp;&nbsp;<select
+            id="Exp"
+            class="FormEntry"
+            name="Exp"
+            style="width: 39%;"
+            required
+          >
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Expert">Expert (Want to learn advanced concepts)</option>
+          </select>
+          <br><br><br>
+          <input type="submit" id = "Submit" onclick="submit()" value = "Submit Application">
+        </form>
+      </div>
+    </center>
+    <br /><br /><br /><br />
+  </body>
+</html>

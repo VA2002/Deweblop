@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+  }
+
+.Navigation {
+    width: 101.5%;
+    background-color: rgb(255, 255, 255);
+    height: 11%;
+    margin-left: -2%;
+    margin-top: -0.9%;
+    position: fixed;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgb(65, 65, 65);
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+}
+
+#Logo {
+    margin-top: -5.2%;
+    margin-left: -1%;
+    height: 101%;
+    width: 18%;
+    min-width: 110px;
+    min-height: 50px;
+    z-index: 3;
+}
+
+#Menuicon {
+    margin-left: -92%;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Menuicon:hover {
+    color: gray;
+    transition: 0.4s;
+}
+
+.Promote {
+    width: 101.5%;
+    height: 85%;
+    background-image: url("../img/Developer.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(112, 112, 112);
+    background-blend-mode: multiply;
+    /* filter: brightness(80%); */
+    margin-left: -1%;
+    color: white;
+    font-family: 'Bahnschrift SemiBold';
+    font-size: 40px;
+    text-align: center;
+    z-index: 1;
+}
+
+#Joinlink {
+    text-decoration: none;
+}
+
+#Join {
+    color: rgb(235, 235, 235);
+    background-color: rgb(53, 123, 253);
+    font-size: 38px;
+    border: 3px solid white;
+    border-radius: 25px;
+    font-family: 'Bahnschrift SemiBold';
+    width: 15%;
+    height: 8.5%;
+    margin-left: 42%;
+    margin-top: 3%;
+}
+
+#Join:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(53, 123, 253);
+    border: 3px solid rgb(53, 123, 253);
+    box-shadow: 10px 10px 40px rgb(170, 199, 255);
+    transition: 0.5s;
+}
+
+.Skills {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Bahnschrift SemiBold';
+    width: 101.5%;
+    height: 70%;
+    margin-left: -1%;
+    margin-top: -2.8%;
+}
+
+#Skillheading {
+    font-size: 38px;
+}
+
+#f-end, #b-end, #ux {
+    width: 50%;
+    height: 150%;
+}
+
+#Skilltable {
+    margin-left: 14%;
+}
+
+.Skillname {
+    font-size: 25px;
+    color: rgb(54, 54, 54);
+}
+
+.Why {
+    width: 101.5%;
+    height: 75%;
+    background-color: rgb(35, 45, 78);
+    color: white;
+    font-family: 'Bahnschrift SemiBold';
+    margin-left: -1%;
+}
+
+#Working {
+    height: 100%;
+    width: 48%;
+    filter: brightness(65%);
+}
+
+#Why-Us {
+    margin-top: -32%;
+    margin-left: 50%;
+}
+
+.Footer {
+    background-color: rgb(19, 19, 19);
+    height: 13%;
+    width: 101.5%;
+    margin-left: -1%;
+    margin-bottom: -13%;
+    font-family: 'Verdana';
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.Black {
+    width: 101.5%;
+    height: 101.5%;
+    background-color: black;
+    opacity: 80%;
+    position: fixed;
+    z-index: 5;
+    margin-top: -102.5%;
+    margin-left: -1%;
+    display: none;
+    animation: fadein 0.6s;
+}
+
+.Sidebar {
+    margin-top: -105%;
+    margin-left: -0.5%;
+    text-align: center;
+    display: none;
+    opacity: 100%;
+    height: 98%;
+    width: 22%;
+    z-index: 6;
+    background-color: rgb(248, 248, 248);
+    position: fixed;
+    animation: slidein 0.4s;
+}
+
+.Sidelink {
+    color: black;
+    font-family: 'Bahnschrift';
+    font-size: 25px;
+    padding: 20px 50px; 
+}
+
+.Sidelink:hover {
+    color: rgb(238, 238, 238);
+    background-color: rgb(93, 175, 243);
+    padding: 20px 57.7px;
+    transition: 0.3s;
+}
+
+.Form {
+    /* margin-top: 150%; */
+    height: 86%;
+    width: 66%;
+    background-color: white;
+    font-family: 'Bahnschrift';
+    font-size: 16px;
+    box-shadow: 5px 5px 12px rgb(65, 65, 65);
+    animation: appear 1s;
+}
+
+.FormEntry {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(249, 249, 249);
+    border-style: none;
+    height: 7%;
+    width: 70%;
+}
+
+#Submit {
+    background-color: rgb(63, 132, 243);
+    color: rgb(255, 255, 255);
+    font-family: 'Bahnschrift Condensed';
+    font-size: 22px;
+    border-width: 3px;
+    border-color: rgb(63, 103, 236);
+    border-style: solid;
+    /* border-radius: 12px; */
+    height: 6.5%;
+    width: 24%;
+}
+
+#Submit:hover {
+    color: rgb(63, 132, 243);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#Submit:disabled {
+    filter: brightness(80%);
+}
+
+/* .FormEntry:invalid {
+    border-width: 1px;
+    border-style: solid;
+    border-color: crimson;
+} */
+
+@keyframes fadein {
+    0% {opacity: 0%;}
+    100% {opacity: 80%;}
+}
+
+@keyframes slidein {
+    0% {margin-left: -25%;}
+    100% {margin-left: -0.5%;}
+}
+
+@keyframes appear {
+    0% {width: 0%; opacity: 0%;}
+    100% {width: 66%; opacity: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    background-image: linear-gradient(-60deg,rgb(151, 226, 245), rgb(137, 163, 235));
+    background-size: 900% 900%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.Game {
+    background-image: linear-gradient(60deg, rgb(97, 71, 48), rgb(110, 92, 62), rgb(114, 76, 45));
+    /* background-color: rgba(20, 74, 144, 0.89); */
+    /* border: 6px outset rgb(73, 46, 16);
+    width: 50%;
+    height: 85%;
+    box-shadow: 2px 2px 10px black;
+}
+
+.Card {
+    background-color: rgb(52, 129, 218);
+    border: 3px solid rgb(212, 212, 212);
+    width: 95px;
+    height: 105px;
+    box-shadow: 2px 2px 7px black;
+    transform: rotateY(0deg);
+    animation: appear 2s;
+}
+
+.Card:hover {
+    box-shadow: 5px 5px 40px rgb(223, 223, 223);
+    transition: 0.5s;
+    cursor: -webkit-grab;
+}
+
+.Back {
+    background-color: white;
+    animation: reveal 1s;   
+}
+
+@keyframes appear {
+    0% {transform: rotateY(90deg);}
+    50% {transform: rotateY(0deg);}
+  }
+
+@keyframes reveal {
+    0% {opacity: 0%;}
+    50% {opacity: 100%;}
+}
+
+@keyframes flip {
+    0% {transform: rotateY(0deg);}
+    50% {transform: rotateY(90deg);}
+  } */ 
