@@ -36,36 +36,3 @@ function disableSubmit(){
 function submit(){
     alert("Submitted");
 }
-
-
-// function flip1() {
-//     // document.querySelector("#One").style.animation = 'flip 1s';
-//     document.querySelector("#One").style.background = 'White';
-//     document.querySelector("#One").innerHTML = '<img class = "back" src = "../img/Java.png" height = "95"  width = "95">';    
-// }
-
-// function flip2() {
-//     document.querySelector("#Two").style.background = 'White';
-//     document.querySelector("#Two").innerHTML = '<img class = "back" src = "../img/CPP.png" height = "100"  width = "95">';    
-// }
-
-// function flip3() {
-//     document.querySelector("#Three").style.background = 'White';
-//     document.querySelector("#Three").innerHTML = '<img class = "back" src = "../img/Python.png" height = "105"  width = "95">';    
-// }
-
-// function flip4() {
-//     document.querySelector("#Four").style.background = 'White';
-//     document.querySelector("#Four").innerHTML = '<img class = "back" src = "../img/CPP.png" height = "100"  width = "95">';    
-// }
-
-// function flip5() {
-//     document.querySelector("#Five").style.background = 'White';
-//     document.querySelector("#Five").innerHTML = '<img class = "back" src = "../img/Python.png" height = "105"  width = "95">';    
-// }
-
-// function flip8() {
-//     // document.querySelector("#Eight").style.animation = 'flip 1s';
-//     document.querySelector("#Eight").style.background = 'White';
-//     document.querySelector("#Eight").innerHTML = '<img class = "back" src = "../img/Java.png" height = "95"  width = "95">';    
-// }
