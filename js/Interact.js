@@ -1,8 +1,8 @@
 window.onload = init;
 
-function init(){
-    // disableSubmit();
-}
+// function init(){
+//     // disableSubmit();
+// }
 
 function sidebar(){
     let blackScreen = document.querySelector(".Black");
@@ -36,3 +36,4 @@ function disableSubmit(){
 function submit(){
     alert("Submitted");
 }
+
